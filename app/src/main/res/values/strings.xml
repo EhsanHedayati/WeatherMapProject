@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherMap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result_button">result button!</string>
+    <string name="weather_details">click here for weather details!</string>
+    <string name="marker_image">marker image</string>
+    <string name="regard_text">please put your intended city under center marker and click on "weather details" button</string>
+    <string name="weather_map">weather map</string>
+    <string name="splash_start_button">start</string>
+    <string name="centigrade_unit">%d` centigrade</string>
+
+</resources>

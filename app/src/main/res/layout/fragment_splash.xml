@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_back"
+    tools:context=".ui.SplashFragment">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_map"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="280dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/splash_pic_3"
+        android:layout_marginTop="65dp"
+        />
+    <TextView
+        android:id="@+id/regard_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/regard_text"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="345dp"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/splash_start_button"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black_text"
+
+        />
+
+
+</FrameLayout>
