@@ -14,9 +14,12 @@ import com.google.android.material.snackbar.Snackbar
 import com.mylab.weathermapproject.R
 import com.mylab.weathermapproject.errorhandling.Status
 import kotlinx.android.synthetic.main.fragment_maps.*
+import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 class MapsFragment : Fragment() {
+
+    private val mapsViewModel: MapsViewModel by inject<MapsViewModel>()
     private val sharedModel: SharedViewModel by sharedViewModel()
 
 
